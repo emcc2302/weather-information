@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Soriful Islam Sk">
+  <title>Weather Information</title>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="container">
+  <h1>Weather Information</h1>
+  <div class="search-box">
+    <form class="search">
+    <input type="text" placeholder="Enter City Name" id="cityInput" spellcheck="false"
+    
+     autocomplete="off"
+  style="background-color: transparent; color: white;"/>
+    <button type="button" class="search__button">
+      <i class="ri-search-2-line"></i>
+    </button>
+    </form>
+  </div>
+
+  <div class="error">
+    <p>Invalid City Name</p>
+  </div>
+
+  <div class="weather-info">
+    <div class="image-temp">
+      <img src="images/drizzle.png" id="main-img">
+ 
+
+  <div class="temp">
+   <h2 class="city"></h2>
+    <h2 id="org-temp"></h2>
+  </div>
+
+    </div>
+    
+
+  <div class="details">
+    <div class="detail">
+      <h3 >Wind Speed</h3>
+      <span class="icon"><img src="images/wind.png" ></span>
+      <span id="wind"></span>
+    </div>
+
+    <div class="detail">
+      <h3 >Humidity</h3>
+      <span class="icon"><img src="images/humidity.png" ></span>
+      <span id="humidity"></span>
+    </div
+  </div>
+   </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
