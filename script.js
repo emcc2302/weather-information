@@ -76,3 +76,11 @@ searchBtn.addEventListener("click", (e) => {
      e.preventDefault();
     checkWeather(searchBox.value);
 });
+
+
+searchBox.addEventListener("keydown", function (event) { // this for enter button ,when ever i hit the enter i show me the output
+    if (event.key === "Enter") {
+        event.preventDefault(); // prevents form reload
+        checkWeather(searchBox.value);
+    }
+});
