@@ -28,7 +28,7 @@ A responsive weather app built by \*\*Soriful Islam Sk\*\* that allows users to 
 
 
 
-\[Click here to view the live demo](#) \*(https://emcc2302.github.io/weather-information/)\*
+\[Click here to view the live demo](#) \*([https://emcc2302.github.io/weather-information/](https://emcc2302.github.io/weather-information/))\*
 
 
 
