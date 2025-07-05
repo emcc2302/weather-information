@@ -36,7 +36,7 @@ A responsive weather app built by \*\*Soriful Islam Sk\*\* that allows users to 
 
 
 
-!\[Weather App Screenshot](/weather-ss.png)  
+!\[Weather App Screenshot](weather-ss.png)  
 
 
 
